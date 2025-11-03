@@ -28,5 +28,26 @@
     
     <p>but truly on the value, the honor, the greatness.</p>
   </div>
+  
+  <!-- Comments Section -->
+  <div class="comments-section">
+    <h2>Comments</h2>
+    
+    <form class="comment-form" id="comment-form">
+      <input type="text" id="comment-name" placeholder="Your name (optional)">
+      <label>
+        <input type="checkbox" id="comment-anonymous">
+        Post as Anonymous
+      </label>
+      <textarea id="comment-content" placeholder="Write a comment..." required></textarea>
+      <button type="submit">Post Comment</button>
+    </form>
+    
+    <div class="comments-list" id="comments-list">
+      <!-- Comments will be rendered here -->
+    </div>
+  </div>
+  
+  <script src="comments.js"></script>
 </body>
 </html>
